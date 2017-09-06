@@ -1,0 +1,7 @@
+青云子账号：
+zhoufengchong@ruijie.com.cn#wap
+wap@2015
+
+服务器IP：119.254.211.51
+账号：root
+SSH秘钥登录方式

@@ -1,0 +1,10 @@
+ArticleType表，Type字段取值如下：
+	中文新闻----------CNews
+	英文新闻----------ENews
+	中文解决方案------CSolution
+	英文解决方案------ESolution
+	中文文档----------CDocument
+	英文文档----------EDocument
+	中文软件----------CSoftware
+	中文常见问题------CKnows
+		

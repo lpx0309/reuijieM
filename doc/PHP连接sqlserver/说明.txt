@@ -1,0 +1,8 @@
+一、windows下
+1、php_sqlsrv_55_ts.dll	TS版本（线程安全），适用于php5.5，其他版本请另行下载。将其加入ext文件夹如D:\wamp\bin\php\php5.5.27\ext\，并在php.ini中加入extension=php_sqlsrv_55_ts.dll，并重启apache
+
+2、另外须安装ODBC Driver 11 for SQL Server，文件为msodbcsql_32.msi和msodbcsql_64.mis（分别为32位和64位，根据windows系统版本）
+
+二、linux下
+mssql扩展，可以通过yum安装，也可以通过pecl安装
+

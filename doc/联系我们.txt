@@ -1,0 +1,26 @@
+create table ContactUS
+(
+	ID int identity(1,1) primary key,-----自增ID
+	TID int not null,-----所属大区ID
+	TName varchar(50) not null,-----所属大区名称
+	province varchar(50) not null,-------办事处名称
+	TelC varchar(50),-----中文电话（售后服务支持：寻求支持）
+	TelE varchar(50),-----英文电话
+	FaxC varchar(50),-----中文传真（售后服务支持：投诉建议）
+	FaxE varchar(50),-----英文传真
+	AdrrC varchar(200),------中文地址
+	AdrrE varchar(200), ------英文地址
+	Mail varchar(100)-----邮箱（售后服务支持：服务论坛）
+)
+
+TID、TName:
+1   售前与售后
+2   各地办事处
+3   各地办事处（华北区）
+4   各地办事处（东北区）
+5   各地办事处（华东区）
+6   各地办事处（华南区）
+7   各地办事处（西南区）
+8   各地办事处（西北区）
+9   各地办事处（华中区）
+10  各地办事处（海外市场）
